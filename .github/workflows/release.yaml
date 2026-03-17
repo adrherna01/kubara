@@ -28,6 +28,7 @@ jobs:
           owner: ${{ github.repository_owner }}
           repositories: |
             ${{ github.event.repository.name }}
+            homebrew-tap
 
       - name: Set up Go
         uses: actions/setup-go@v6
