@@ -3,7 +3,7 @@ version: 2
 project_name: kubara
 release:
   github:
-    owner: kubara-io
+    owner: adrherna01
     name: kubara
   draft: true
   replace_existing_draft: true
