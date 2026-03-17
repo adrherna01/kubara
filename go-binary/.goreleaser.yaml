@@ -164,7 +164,7 @@ notarize:
 brews:
   - name: kubara
     repository:
-      owner: adrherna01     
+      owner: adrherna01  
       name: homebrew-tap
     description: "Kubara CLI tool for managing my Go binaries"
     homepage: "https://github.com/adrherna01/kubara"
