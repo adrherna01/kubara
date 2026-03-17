@@ -38,6 +38,6 @@ jobs:
           distribution: goreleaser
           version: '~> v2'
           workdir: go-binary
-          args: release --skip=build,archive,sign,notarize
+          args: release --clean
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
