@@ -3,7 +3,7 @@ version: 2
 project_name: kubara
 release:
   github:
-    owner: adrherna01
+    owner: kubara-io
     name: kubara
   draft: true
   replace_existing_draft: true
@@ -165,7 +165,7 @@ notarize:
 brews:
   - name: kubara
     repository:
-      owner: adrherna01
+      owner: kubara-io
       name: homebrew-tap
     description: "Kubara CLI tool for managing my Go binaries"
     homepage: "https://github.com/adrherna01/kubara"
